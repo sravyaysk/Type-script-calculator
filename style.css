@@ -1,0 +1,36 @@
+table, td, tr { font-family: sans-serif; font-size: 20pt; color: white; background-color: #101010; height: 25px }
+
+body {
+    background-color: #D4E6F1;
+    margin: 30px;
+}
+
+input[type=text]{
+	  font-size: 32px;
+    width: 270px;
+	  height: 50px;
+    background: white;
+    border: 1px double #DDD;
+	  background-color: #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #333;
+    color: #666;
+    outline: none;
+	  text-align: right;
+    padding: 3px;
+  }
+
+input[type="button"]{
+	font-size: 32px;
+    width: 55px;
+    height: 50px;
+    margin: 5px;
+	border:1px solid #b7b7b7; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;
+    padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    background-color: #d3d3d3; background-image: -webkit-gradient(linear, left top, left bottom, from(#d3d3d3), to(#707070));
+    background-image: -webkit-linear-gradient(top, #d3d3d3, #707070);
+    background-image: -moz-linear-gradient(top, #d3d3d3, #707070);
+    background-image: -ms-linear-gradient(top, #d3d3d3, #707070);
+    background-image: -o-linear-gradient(top, #d3d3d3, #707070);
+    background-image: linear-gradient(to bottom, #d3d3d3, #707070);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d3d3d3, endColorstr=#707070);
+}
